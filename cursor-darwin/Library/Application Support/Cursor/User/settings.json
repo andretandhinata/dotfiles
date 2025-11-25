@@ -1,0 +1,138 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.defaultFormatter": "biomejs.biome",
+  "workbench.startupEditor": "none",
+  "window.commandCenter": false,
+  "workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "editor.minimap.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.env.osx": {},
+  "editor.wordWrap": "on",
+  "workbench.colorTheme": "One Dark Pro Night Flat",
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "editor.wordWrapColumn": 60,
+  "explorer.confirmDelete": false,
+  "reactSnippets.settings.importReactOnTop": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorWidth": 3,
+  "emmet.triggerExpansionOnTab": true,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.env.windows": {},
+  "editor.fontLigatures": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "[javascript]": {
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.maxTokenizationLineLength": 2500
+  },
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "redhat.telemetry.enabled": true,
+  "tailwind-fold.autoFold": false,
+  "editor.tabCompletion": "on",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "remote.SSH.remotePlatform": {
+    "192.168.135.47": "linux",
+    "srv-prod-1": "linux",
+    "srv-demo-1": "linux",
+    "venom": "linux"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "remote.SSH.connectTimeout": 3600,
+  "ansible.validation.lint.enabled": false,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.rightClickBehavior": "paste",
+  "editor.fontSize": 14,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.exclude": {
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*notifications/": true,
+    "**/.trunk/*out/": true,
+    "**/.trunk/*plugins/": true
+  },
+  "files.watcherExclude": {
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*notifications/": true,
+    "**/.trunk/*out/": true,
+    "**/.trunk/*plugins/": true
+  },
+  "eslint.format.enable": true,
+  "eslint.run": "onSave",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "editor.inlayHints.fontSize": 11,
+  "editor.fontFamily": "JetBrains Mono, Fira Code, Consolas, 'Courier New', monospace",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "files.associations": {
+    "*.tofu": "terraform"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "docker.extension.enableComposeLanguageServer": false,
+  "catppuccin.accentColor": "red",
+  "oneDarkPro.editorTheme": "One Dark Pro Flat",
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "biome.suggestInstallingGlobally": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "[svg]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "svg.preview.mode": "svg",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+    "cuid",
+    "Elon",
+    "inngest",
+    "Retriable",
+    "toposort",
+    "Uploadthing",
+    "utapi",
+    "zinit"
+  ]
+}
