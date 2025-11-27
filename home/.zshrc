@@ -57,8 +57,9 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 alias ls='eza --icons --group-directories-first'
 alias ll='eza --icons --group-directories-first -l'
 alias c='clear'
+alias vim='nvim'
 
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
-# eval "$(starship init zsh)"
+eval "$(starship init zsh)"
