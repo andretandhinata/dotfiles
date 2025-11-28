@@ -46,7 +46,7 @@ x = 0
 y = 0
 
 [mouse]
-hide_when_typing = true
+hide_when_typing = false
 
 [[mouse.bindings]]
 action = "PasteSelection"
@@ -65,8 +65,8 @@ option_as_alt = "Both"
 startup_mode = "Windowed"
 
 [window.dimensions]
-columns = 160
-lines = 80
+columns = 120
+lines = 30
 
 [window.padding]
 x = 4
